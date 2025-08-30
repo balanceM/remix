@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"name": "createOrUpdateStatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getStatus",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ProfileStatus.sol": "ProfileStatus"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ProfileStatus.sol": {
+			"keccak256": "0x7f582c9f745ca4f4b02d51fbe145c5f7b48afd9514822f80765d0b509fb9d281",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://083c182a914e7a73fe95114a952c7abf67af61c79a40ab0e0b71c497c629286f",
+				"dweb:/ipfs/QmTrBUca1BZsCqajcNejwb9eXaLg3kKSc6hof3JB8j22ve"
+			]
+		}
+	},
+	"version": 1
+}
