@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getTxInfo",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TxInfo.sol": "TxInfo"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TxInfo.sol": {
+			"keccak256": "0xff9a795130334ed08b34681ab20110420757f3899e08873125d75311fae06f78",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6c506cdaf086dbfb662937e6eab90e6800b4e9b8c932773b63922cf14a40c624",
+				"dweb:/ipfs/QmQwZpfNfu3csrP6Ugjr84P5HoXBkRoZZePfv4RbM5sfqH"
+			]
+		}
+	},
+	"version": 1
+}
